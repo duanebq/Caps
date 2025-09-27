@@ -4,7 +4,7 @@
 
 import os, sys, time, io, tempfile, importlib.util
 from typing import Optional, Tuple, Dict, Any
-import metrics_silent  
+import metrics_silent  # ensure metrics_silent.py is present
 import streamlit as st
 
 st.set_page_config(
@@ -533,4 +533,3 @@ with st.expander("ℹ️ How to use"):
 4) Optional: ask questions about the transcript (RAG).  
 5) Download your translation and summary as `.txt`.  
 """)
-
